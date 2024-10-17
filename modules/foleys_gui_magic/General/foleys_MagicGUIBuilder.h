@@ -214,7 +214,7 @@ public:
     /**
      Lookup the default value of the property
      */
-    juce::var getPropertyDefaultValue (juce::Identifier property) const;
+    virtual juce::var getPropertyDefaultValue (juce::Identifier property) const;
 
     MagicGUIState& getMagicState();
 
